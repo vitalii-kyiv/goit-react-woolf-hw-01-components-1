@@ -1,5 +1,7 @@
 import RenderProfile from './Profile/Profile';
-import userData from '../user.json';
+import userData from "../data/user.json"
+import data from "../data/data.json"
+import RenderStatistics from './Statistics/Statistics';
 
 export const App = () => {
   return (
@@ -21,6 +23,7 @@ export const App = () => {
         avatar={userData.avatar}
         stats={userData.stats}
       />
-    </div>
+      <RenderStatistics title="Upload stats" stats={data}/>
+          </div>
   );
 };
