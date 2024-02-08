@@ -1,0 +1,40 @@
+.profile {
+  margin-top: 24px;
+  background-color: blanchedalmond;
+  border-radius: 20px;
+  padding: 24px;
+  border: solid 2px black;
+}
+
+.avatar {
+  max-width: 240px;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  margin-bottom: 24px;
+}
+.name {
+  margin-bottom: 24px;
+}
+.tag {
+  margin-bottom: 24px;
+  font-style: italic;
+  font-size: 30px;
+}
+
+.location {
+  margin-bottom: 24px;
+  font-size: 30px;
+}
+.stats {
+  display: flex;
+  gap: 8px;
+  font-size: 20px;
+  justify-content: space-around;
+}
+.label {
+  display: block;
+  font-style: italic;
+}
+.quantity {
+  font-style: italic;
+}

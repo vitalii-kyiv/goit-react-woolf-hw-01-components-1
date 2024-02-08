@@ -1,0 +1,22 @@
+.statistics {
+  background-color: blanchedalmond;
+  border-radius: 20px;
+  padding: 24px;
+  border: solid 2px black;
+}
+.title {
+  padding: 24px;
+  text-align: center;
+}
+.statList {
+  display: flex;
+}
+.item {
+  padding: 16px;
+  min-width: 100px;
+}
+.label {
+  display: block;
+}
+.percentage {
+}
