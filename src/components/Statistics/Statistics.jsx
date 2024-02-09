@@ -1,4 +1,4 @@
-import generateRandomHexColor from 'components/helpers/generateRandomHexColor';
+import generateRandomHexColor from 'helpers/generateRandomHexColor';
 import css from './Statistics.module.css';
 const Statistics = ({ title, stats }) => {
   return (

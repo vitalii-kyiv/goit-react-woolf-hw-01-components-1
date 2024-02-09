@@ -1,0 +1,24 @@
+.item {
+  display: flex;
+  padding: 24px;
+  min-width: 300px;
+  border-bottom: solid 1px black;
+}
+
+.status {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+.statusOffline {
+  background-color: red;
+}
+
+.statusOnline {
+  background-color: green;
+}
+
+.avatar {
+  margin-right: 16px;
+}
